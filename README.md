@@ -60,5 +60,3 @@ Lint Code: npm run lint (if configured)
 Contribution
 Contributions are welcome! Fork the repository and submit a pull request for any features or bug fixes.
 
-License
-This project is licensed under the MIT License.
