@@ -38,14 +38,6 @@ Copy code
 npm install  
 Set Up Environment Variables:
 
-Create a .env file in the project root.
-Add your Audius API base URL:
-plaintext
-Copy code
-REACT_APP_AUDIUS_API_URL=https://discoveryprovider.audius.co  
-Running the Application
-Start the Development Server:
-
 bash
 Copy code
 npm start  
