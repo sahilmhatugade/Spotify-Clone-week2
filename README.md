@@ -13,7 +13,9 @@ React: Framework for building the frontend user interface.
 React Router: Handles navigation between pages.
 Context API: Manages user state and global app data.
 Tailwind CSS: Ensures modern and responsive styling.
-Audius API: Fetches music data, including tracks, albums, and artist details.
+Deezer API: Fetches music data, including tracks, albums, and artist details.
+
+
 Getting Started
 Follow these steps to set up and run the project locally.
 
@@ -56,20 +58,9 @@ Copy code
 npm run build  
 This creates an optimized production build of the app in the build directory.
 
-Folder Structure
-plaintext
-Copy code
-src/  
-├── components/        # Reusable components (e.g., Navbar, TrackCard, Player)  
-├── pages/             # Page components (e.g., Home, TrackDetails, Search)  
-├── context/           # Context for global state management  
-├── styles/            # Tailwind configuration and global styles  
-├── services/          # API calls to interact with Audius API  
-├── App.js             # Main application file  
-├── index.js           # Entry point of the app  
 API Integration
-The platform integrates with the Audius API.
-Set the Audius API URL in the .env file as REACT_APP_AUDIUS_API_URL.
+The platform integrates with the Deezer API.
+
 Key Commands
 Start Development Server: npm start
 Build for Production: npm run build
